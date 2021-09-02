@@ -1084,6 +1084,22 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime-corejs3@^7.11.0":
+  version "7.14.7"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@babel/runtime-corejs3/-/runtime-corejs3-7.14.7.tgz#0ef292bbce40ca00f874c9724ef175a12476465c"
+  integrity sha1-DvKSu85AygD4dMlyTvF1oSR2Rlw=
+  dependencies:
+    core-js-pure "^3.15.0"
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime-corejs3@^7.14.0":
+  version "7.15.3"
+  resolved "http://localhost:4873/@babel%2fruntime-corejs3/-/runtime-corejs3-7.15.3.tgz#28754263988198f2a928c09733ade2fb4d28089d"
+  integrity sha512-30A3lP+sRL6ml8uhoJSs+8jwpKzbw8CqBvDc1laeptxPm5FahumJxirigcbD2qTs71Sonvj1cyZB0OKGAmxQ+A==
+  dependencies:
+    core-js-pure "^3.16.0"
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
@@ -1091,17 +1107,24 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.15.3":
+  version "7.15.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
+  integrity sha1-LhwogMoRjlsvmYgyK9inZWoyUCs=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
+  version "7.14.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
+  integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.12.18"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.18.tgz#af137bd7e7d9705a412b3caaf991fe6aaa97831b"
   integrity sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
-  version "7.14.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
-  integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1208,6 +1231,14 @@
   integrity sha512-tAag0jEcjwH+P2quUfipd7liWCNX2F8NvYjQp2wtInsZxnMlypdw0FtAOLxtvvkO+GSRRbmNi8m/5y42PQJYCQ==
   dependencies:
     "@hapi/hoek" "^8.3.0"
+
+"@hypnosphi/create-react-context@^0.3.1":
+  version "0.3.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@hypnosphi/create-react-context/-/create-react-context-0.3.1.tgz#f8bfebdc7665f5d426cba3753e0e9c7d3154d7c6"
+  integrity sha1-+L/r3HZl9dQmy6N1Pg6cfTFU18Y=
+  dependencies:
+    gud "^1.0.0"
+    warning "^4.0.3"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -1396,6 +1427,16 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@juggle/resize-observer@3.3.0":
+  version "3.3.0"
+  resolved "http://localhost:4873/@juggle%2fresize-observer/-/resize-observer-3.3.0.tgz#2e7a2935adbfae46f9efbd1e1455254ee7ea2219"
+  integrity sha512-P1v2nvK7z2gOLVM/bveIRLG9L99uEahTGgTltyF03zixZAjI9YmKLj5Z9MpS9wBIUt5WDoQORT2lXvLOIF89iA==
+
+"@juggle/resize-observer@3.3.1":
+  version "3.3.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@juggle/resize-observer/-/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
+  integrity sha1-tQp4FwnIHhBwEAQhQ0DyVHWhcaA=
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -1436,6 +1477,55 @@
     native-url "^0.2.6"
     schema-utils "^2.6.5"
     source-map "^0.7.3"
+
+"@popperjs/core@^2.4.4":
+  version "2.9.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
+
+"@rescui/button@^0.2.1":
+  version "0.2.1"
+  resolved "http://localhost:4873/@rescui%2fbutton/-/button-0.2.1.tgz#672f218f4f120af1476e07785dee3f783533f2ac"
+  integrity sha512-+QZQOsO2oz/7y3UrTOjwEW6DiNoSN9GkBo3SiqkfxG0RJd2JxiN4cptmVe7Z9tFDoSjsDiz8sxOq3RQpSfWrMA==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.14.0"
+    "@rescui/icons" "^0.1.2"
+    classnames "^2.2.6"
+    core-js "^3.9.1"
+
+"@rescui/colors@0.0.3":
+  version "0.0.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@rescui/colors/-/colors-0.0.3.tgz#6e14150476e4b4483bd88a1ea803c2fe6c04d060"
+  integrity sha1-bhQVBHbktEg72IoeqAPC/mwE0GA=
+
+"@rescui/icons@^0.1.2":
+  version "0.1.2"
+  resolved "http://localhost:4873/@rescui%2ficons/-/icons-0.1.2.tgz#b1aa5b20f073e293d76257c0aee873889f089739"
+  integrity sha512-oa7IiROJGvicKZ0vAfmCNgQIMqM4jlklkrUpkDBeWXg2ZDI0jBa/aBjNwG6Aiojrf15XjVNvFLlzalZs9VokMA==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.14.0"
+    classnames "^2.2.6"
+    core-js "^3.9.1"
+
+"@rescui/tab-list@0.2.1":
+  version "0.2.1"
+  resolved "http://localhost:4873/@rescui%2ftab-list/-/tab-list-0.2.1.tgz#7a9540b490114c6fb7e115ff48db69ae3a835660"
+  integrity sha512-tTSxPSnMmaJFNibE4O6A12ASkMXK2ZA2lmuX3PctCw9lGBz2Mse+zDHRhyIdYFVpOyuS1jFmvetil/aCox63uA==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.14.0"
+    "@juggle/resize-observer" "3.3.0"
+    "@rescui/button" "^0.2.1"
+    "@rescui/icons" "^0.1.2"
+    classnames "^2.2.6"
+    core-js "^3.9.1"
+
+"@rescui/ui-contexts@0.1.2":
+  version "0.1.2"
+  resolved "http://localhost:4873/@rescui%2fui-contexts/-/ui-contexts-0.1.2.tgz#6b9404e2c8203f3b0eaebe547afad512634bc2c8"
+  integrity sha512-f0XnUjMstIuj/TdY1yhw3abqYwOURy9eumsBCLRyOY8xHyaTamEDv0VLhUuUCYw2COGrAn7GxMLTV/AdqErSCg==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.14.0"
+    core-js "^3.9.1"
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
@@ -1842,6 +1932,11 @@
   dependencies:
     "@types/jest" "*"
 
+"@types/throttle-debounce@2.1.0":
+  version "2.1.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@types/throttle-debounce/-/throttle-debounce-2.1.0.tgz#1c3df624bfc4b62f992d3012b84c56d41eab3776"
+  integrity sha1-HD32JL/Eti+ZLTASuExW1B6rN3Y=
+
 "@types/uglify-js@*":
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.12.0.tgz#2bb061c269441620d46b946350c8f16d52ef37c5"
@@ -2133,6 +2228,188 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@webteam/bem-cn-fast@^1.1.2":
+  version "1.1.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/bem-cn-fast/-/@webteam/bem-cn-fast-1.1.3.tgz#4620a2b1816a78ff56f89567f48ba71146880c48"
+  integrity sha1-RiCisYFqeP9W+JVn9IunEUaIDEg=
+  dependencies:
+    bem-cn-fast "^1.0.2"
+
+"@webteam/breakpoints@0.7.6":
+  version "0.7.6"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/breakpoints/-/@webteam/breakpoints-0.7.6.tgz#7c280b5cf82282e3efd0f25aac95765b16e25e81"
+  integrity sha1-fCgLXPgiguPv0PJarJV2WxbiXoE=
+  dependencies:
+    core-js "^3"
+    the-platform "^0.10.1"
+
+"@webteam/button@6.1.2":
+  version "6.1.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/button/-/@webteam/button-6.1.2.tgz#efc9caa7ad251108192167faf8ca27c867c9cb3b"
+  integrity sha1-78nKp60lEQgZIWf6+MonyGfJyzs=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    "@webteam/icons" "^2.1.0"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/colors@1.0.22":
+  version "1.0.22"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/colors/-/@webteam/colors-1.0.22.tgz#14931cd93af0ffe88501b64d9cc46e9721e86de0"
+  integrity sha1-FJMc2Trw/+iFAbZNnMRulyHobeA=
+
+"@webteam/colors@^1.0.24":
+  version "1.0.27"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/colors/-/@webteam/colors-1.0.27.tgz#85307918335265202a4c842b8e7f7071861f77df"
+  integrity sha1-hTB5GDNSZSAqTIQrjn9wcYYfd98=
+
+"@webteam/dropdown@3.0.0":
+  version "3.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/dropdown/-/@webteam/dropdown-3.0.0.tgz#3b45cc796a293cd6b2a388b7a21c3b214682053d"
+  integrity sha1-O0XMeWopPNayo4i3ohw7IUaCBT0=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@popperjs/core" "^2.4.4"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    classnames "^2.2.6"
+    core-js "^3"
+    popper-max-size-modifier "^0.2.0"
+    react-popper "^2.2.3"
+
+"@webteam/icons@2.0.0":
+  version "2.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/icons/-/@webteam/icons-2.0.0.tgz#9123a8fa27a04c109aa0279f66cd82bd604c5a3f"
+  integrity sha1-kSOo+iegTBCaoCefZs2CvWBMWj8=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    bem-cn-fast "^1.0.2"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/icons@^2.0.7", "@webteam/icons@^2.1.0":
+  version "2.2.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/icons/-/@webteam/icons-2.2.3.tgz#319462964561be9c710533ed4ceecf284a78a0e5"
+  integrity sha1-MZRilkVhvpxxBTPtTO7PKEp4oOU=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    bem-cn-fast "^1.0.2"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/input@5.0.9":
+  version "5.0.9"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/input/-/@webteam/input-5.0.9.tgz#8f427bbed20c61277489b55bb1999d3f4e305fa9"
+  integrity sha1-j0J7vtIMYSd0ibVbsZmdP04wX6k=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    "@webteam/icons" "^2.0.7"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/layout@0.14.11":
+  version "0.14.11"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/layout/-/@webteam/layout-0.14.11.tgz#1889ad5d58f1d44c25892ece0605087174280c01"
+  integrity sha1-GImtXVjx1EwliS7OBgUIcXQoDAE=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    bem-cn-fast "^1.0.2"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/list@4.0.6":
+  version "4.0.6"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/list/-/@webteam/list-4.0.6.tgz#c6ca44bdc1bfeded9de55e43e76f07d4cbc737ac"
+  integrity sha1-xspEvcG/7e2d5V5D528H1MvHN6w=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    classnames "^2.2.6"
+    core-js "^3"
+
+"@webteam/switcher@4.1.4":
+  version "4.1.4"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/switcher/-/@webteam/switcher-4.1.4.tgz#7556731fcb1a3ebcb91130e5e20f866b67e5d4f1"
+  integrity sha1-dVZzH8saPry5ETDl4g+Ga2fl1PE=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    classnames "^2.2.6"
+    core-js "^3"
+    react-resize-detector "^3.1.0"
+
+"@webteam/tooltip@3.0.0":
+  version "3.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/tooltip/-/@webteam/tooltip-3.0.0.tgz#bca45b87dd0ca64bca2e0fc0c4bfb91121bfff14"
+  integrity sha1-vKRbh90MpkvKLg/AxL+5ESG//xQ=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/bem-cn-fast" "^1.1.2"
+    core-js "^3"
+    react-popper "^1.3.4"
+
+"@webteam/typography@5.4.0":
+  version "5.4.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/typography/-/@webteam/typography-5.4.0.tgz#28a2ae40a9b5b8ff7fbe8b44382e885862261b37"
+  integrity sha1-KKKuQKm1uP9/votEOC6IWGImGzc=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    bem-cn-fast "^1.0.2"
+
+"@webteam/ui-contexts@0.8.3":
+  version "0.8.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/@webteam/ui-contexts/-/@webteam/ui-contexts-0.8.3.tgz#e546c4588579ebbf59d0fdd5d4a0678d151f3b89"
+  integrity sha1-5UbEWIV5679Z0P3V1KBnjRUfO4k=
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.0"
+    "@webteam/colors" "^1.0.24"
+    core-js "^3"
+
+"@webteam/webhelp@0.4.16-beta-4":
+  version "0.4.16-beta-4"
+  resolved "http://localhost:4873/@webteam%2fwebhelp/-/webhelp-0.4.16-beta-4.tgz#d2d8b18c89faa95761a62b153948ed44f95df1d5"
+  integrity sha512-8tO05VUezCUuojtiJKiwyf/2z6ztyHIg0WC16t8WqfCictmmXrTLgBGsaYmX1Af1Jcl4ZkzK6FNvcJ9BKKmoBA==
+  dependencies:
+    "@babel/runtime" "7.15.3"
+    "@juggle/resize-observer" "3.3.1"
+    "@rescui/colors" "0.0.3"
+    "@rescui/tab-list" "0.2.1"
+    "@rescui/ui-contexts" "0.1.2"
+    "@types/throttle-debounce" "2.1.0"
+    "@webteam/breakpoints" "0.7.6"
+    "@webteam/button" "6.1.2"
+    "@webteam/colors" "1.0.22"
+    "@webteam/dropdown" "3.0.0"
+    "@webteam/icons" "2.0.0"
+    "@webteam/input" "5.0.9"
+    "@webteam/layout" "0.14.11"
+    "@webteam/list" "4.0.6"
+    "@webteam/switcher" "4.1.4"
+    "@webteam/tooltip" "3.0.0"
+    "@webteam/typography" "5.4.0"
+    "@webteam/ui-contexts" "0.8.3"
+    bem-cn "2.1.3"
+    clipboard "2.0.4"
+    core-js "3.16.2"
+    create-element-by-selector.js "0.1.2"
+    history "4.10.1"
+    kotlin-playground "https://github.com/zoobestik/kotlin-playground/tarball/free-theme"
+    postcss "8.3.6"
+    prismjs "1.24.1"
+    prop-types "^15.7.2"
+    query-string-es5-with-sorting "5.1.2"
+    react-collapse "5.0.1"
+    react-html-parser "^2.0.2"
+    react-kotlin-playground "0.1.0-beta.7"
+    react-player "2.1.0"
+    react-portal "4.2.0"
+    react-scroll-sync "0.7.1"
+    react-waypoint "9.0.2"
+    screenfull "5.0.2"
+    shortid "2.2.15"
+    throttle-debounce "2.2.1"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -2729,6 +3006,16 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bem-cn-fast@^1.0.2:
+  version "1.0.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/bem-cn-fast/-/bem-cn-fast-1.0.2.tgz#ec52816084876ea49ca4701681220dedf0687821"
+  integrity sha1-7FKBYISHbqScpHAWgSIN7fBoeCE=
+
+bem-cn@2.1.3:
+  version "2.1.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/bem-cn/-/bem-cn-2.1.3.tgz#1e2145bc0f1106085de5563b6611c79644e71c2c"
+  integrity sha1-HiFFvA8RBghd5VY7ZhHHlkTnHCw=
+
 bfj@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/bfj/-/bfj-7.0.2.tgz#1988ce76f3add9ac2913fd8ba47aad9e651bfbb2"
@@ -3246,6 +3533,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.3.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4=
+
 clean-css@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
@@ -3257,6 +3549,15 @@ clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
+
+clipboard@2.0.4:
+  version "2.0.4"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
+  integrity sha1-g22v1mzw/qXXHOXVsL9ulYAJES0=
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
 
 cliui@^5.0.0:
   version "5.0.0"
@@ -3348,6 +3649,11 @@ colorette@^1.2.1:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
 
+colorette@^1.2.2:
+  version "1.3.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/colorette/-/colorette-1.3.0.tgz#ff45d2f0edb244069d3b772adeb04fed38d0a0af"
+  integrity sha1-/0XS8O2yRAadO3cq3rBP7TjQoK8=
+
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -3437,6 +3743,11 @@ console-browserify@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
   integrity sha512-ZMkYO/LkF17QvCPqM0gxw8yUzigAOZOSWSHg91FH6orS7vcEj5dVZTidN2fQ14yBSdg97RqhSNwLUXInd52OTA==
 
+"consolidated-events@^1.1.0 || ^2.0.0":
+  version "2.0.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/consolidated-events/-/consolidated-events-2.0.2.tgz#da8d8f8c2b232831413d9e190dc11669c79f4a91"
+  integrity sha1-2o2PjCsjKDFBPZ4ZDcEWacefSpE=
+
 constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
@@ -3511,15 +3822,40 @@ core-js-pure@^3.0.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.9.0.tgz#326cc74e1fef8b7443a6a793ddb0adfcd81f9efb"
   integrity sha512-3pEcmMZC9Cq0D4ZBh3pe2HLtqxpGNJBLXF/kZ2YzK17RbKp94w0HFbdbSx8H8kAlZG5k76hvLrkPm57Uyef+kg==
 
+core-js-pure@^3.15.0:
+  version "3.15.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/core-js-pure/-/core-js-pure-3.15.2.tgz#c8e0874822705f3385d3197af9348f7c9ae2e3ce"
+  integrity sha1-yOCHSCJwXzOF0xl6+TSPfJri484=
+
+core-js-pure@^3.16.0:
+  version "3.16.4"
+  resolved "http://localhost:4873/core-js-pure/-/core-js-pure-3.16.4.tgz#8b23122628d88c560f209812b9b2d9ebbce5e29c"
+  integrity sha512-bY1K3/1Jy9D8Jd12eoeVahNXHLfHFb4TXWI8SQ4y8bImR9qDPmGITBAfmcffTkgUvbJn87r8dILOTWW5kZzkgA==
+
+core-js@3.16.2:
+  version "3.16.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/core-js/-/core-js-3.16.2.tgz#3f485822889c7fc48ef463e35be5cc2a4a01a1f4"
+  integrity sha1-P0hYIoicf8SO9GPjW+XMKkoBofQ=
+
 core-js@^2.4.0:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
+core-js@^3:
+  version "3.15.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/core-js/-/core-js-3.15.2.tgz#740660d2ff55ef34ce664d7e2455119c5bdd3d61"
+  integrity sha1-dAZg0v9V7zTOZk1+JFURnFvdPWE=
+
 core-js@^3.6.5:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.0.tgz#790b1bb11553a2272b36e2625c7179db345492f8"
   integrity sha512-PyFBJaLq93FlyYdsndE5VaueA9K5cNB7CGzeCj191YYLhkQM0gdZR2SKihM70oF0wdqKSKClv/tEBOpoRmdOVQ==
+
+core-js@^3.9.1:
+  version "3.16.4"
+  resolved "http://localhost:4873/core-js/-/core-js-3.16.4.tgz#0fb1029a554fc2688c0963d7c900e188188a78e0"
+  integrity sha512-Tq4GVE6XCjE+hcyW6hPy0ofN3hwtLudz5ZRdrlCnsnD/xkm/PWQRudzYHiKgZKUcefV6Q57fhDHjZHJP5dpfSg==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -3565,6 +3901,13 @@ create-ecdh@^4.0.0:
   dependencies:
     bn.js "^4.1.0"
     elliptic "^6.5.3"
+
+create-element-by-selector.js@0.1.2:
+  version "0.1.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/create-element-by-selector.js/-/create-element-by-selector.js-0.1.2.tgz#99fb8a8c2ee58fc2b8e13d5759764c394b35890c"
+  integrity sha1-mfuKjC7lj8K44T1XWXZMOUs1iQw=
+  dependencies:
+    selector-parse "^0.3.2"
 
 create-hash@^1.1.0, create-hash@^1.1.2, create-hash@^1.2.0:
   version "1.2.0"
@@ -3931,7 +4274,7 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
-deep-equal@^1.0.1:
+deep-equal@^1.0.1, deep-equal@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.1.tgz#b5c98c942ceffaf7cb051e24e1434a25a2e6076a"
   integrity sha512-yd9c5AdiqVcR+JjcwUQb9DkhJc8ngNr0MahEBGvDiJw8puWab2yZlh+nkasOnZP+EGTAP6rRp2JzJhJZzvNF8g==
@@ -3948,7 +4291,7 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
-deepmerge@^4.2.2:
+deepmerge@^4.0.0, deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
@@ -4007,6 +4350,11 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha1-tmtxwxWFIuirV0T3INjKDCr1kWY=
 
 depd@~1.1.2:
   version "1.1.2"
@@ -5310,6 +5658,13 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
@@ -5319,6 +5674,11 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
+
+gud@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
+  integrity sha1-pIlYGxfmpwvsqavjrlfeekmYUsA=
 
 gzip-size@5.1.1:
   version "5.1.1"
@@ -5431,6 +5791,18 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+history@4.10.1:
+  version "4.10.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/history/-/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
+  integrity sha1-MzcaZeOoOyZ0NOKz87G0xYqtTPM=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    loose-envify "^1.2.0"
+    resolve-pathname "^3.0.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+    value-equal "^1.0.1"
+
 hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -5520,7 +5892,7 @@ html-webpack-plugin@4.5.0:
     tapable "^1.1.3"
     util.promisify "1.0.0"
 
-htmlparser2@^3.10.1:
+htmlparser2@^3.10.1, htmlparser2@^3.9.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
   integrity sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
@@ -6708,6 +7080,13 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
+json2mq@^0.2.0:
+  version "0.2.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/json2mq/-/json2mq-0.2.0.tgz#b637bd3ba9eabe122c83e9720483aeb10d2c904a"
+  integrity sha1-tje9O6nqvhIsg+lyBIOusQ0skEo=
+  dependencies:
+    string-convert "^0.2.0"
+
 json3@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/json3/-/json3-3.3.3.tgz#7fc10e375fc5ae42c4705a5cc0aa6f62be305b81"
@@ -6800,6 +7179,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
+"kotlin-playground@https://github.com/zoobestik/kotlin-playground/tarball/free-theme":
+  version "1.23.0"
+  resolved "https://github.com/zoobestik/kotlin-playground/tarball/free-theme#df74059497cea64d1a737a9daec6da12f04dad4a"
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"
@@ -6856,6 +7239,11 @@ load-json-file@^2.0.0:
     pify "^2.0.0"
     strip-bom "^3.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
+
 loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -6911,6 +7299,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.11:
+  version "4.17.21"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -6956,7 +7349,7 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -7053,6 +7446,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+
+memoize-one@^5.1.1:
+  version "5.2.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
+  integrity sha1-gzeqPEM1WBg57AHD1ZQJDOvo8A4=
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -7316,10 +7714,20 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
+nanoid@^2.1.0:
+  version "2.1.11"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+  integrity sha1-7CS4p1jVkVYVMbQXagHjq08PAoA=
+
 nanoid@^3.1.20:
   version "3.1.20"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+
+nanoid@^3.1.23:
+  version "3.1.25"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
+  integrity sha1-CcoydHwOVD8OGBS303k0d/nI4VI=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8018,6 +8426,16 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
+popper-max-size-modifier@^0.2.0:
+  version "0.2.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/popper-max-size-modifier/-/popper-max-size-modifier-0.2.0.tgz#1574744401296a488b4974909d130a85db94256f"
+  integrity sha1-FXR0RAEpakiLSXSQnRMKhduUJW8=
+
+popper.js@^1.14.4:
+  version "1.16.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha1-KiI8s9x7YhPXQOQDcr5A3kPmWxs=
+
 portfinder@^1.0.26:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -8685,6 +9103,15 @@ postcss@7.0.21:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+postcss@8.3.6:
+  version "8.3.6"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/postcss/-/postcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
+  integrity sha1-JzDddql5afN/U7mmCWGXvjEcxOo=
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
+
 postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.35"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
@@ -8741,6 +9168,11 @@ pretty-format@^26.0.0, pretty-format@^26.6.0, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
+prismjs@1.24.1:
+  version "1.24.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
+  integrity sha1-xNeJXE1lACiUgvqJNtnN0ZJoQDY=
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -8776,7 +9208,7 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.0.0, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8870,6 +9302,15 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+query-string-es5-with-sorting@5.1.2:
+  version "5.1.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/query-string-es5-with-sorting/-/query-string-es5-with-sorting-5.1.2.tgz#7a2772dd389587de25c05046140570322e7c6451"
+  integrity sha1-eidy3TiVh94lwFBGFAVwMi58ZFE=
+  dependencies:
+    decode-uri-component "^0.2.0"
+    object-assign "^4.1.0"
+    strict-uri-encode "^1.0.0"
+
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -8952,6 +9393,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-collapse@5.0.1:
+  version "5.0.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-collapse/-/react-collapse-5.0.1.tgz#f763b7207aee73baa1ff778b2d0b4ffb49d900a0"
+  integrity sha1-92O3IHruc7qh/3eLLQtP+0nZAKA=
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -8996,7 +9442,19 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
-react-is@^16.8.1:
+react-fast-compare@^3.0.1:
+  version "3.2.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
+  integrity sha1-ZBqdqBtqYyDycOiXJPtFoLOeQ7s=
+
+react-html-parser@^2.0.2:
+  version "2.0.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-html-parser/-/react-html-parser-2.0.2.tgz#6dbe1ddd2cebc1b34ca15215158021db5fc5685e"
+  integrity sha1-bb4d3SzrwbNMoVIVFYAh21/FaF4=
+  dependencies:
+    htmlparser2 "^3.9.0"
+
+react-is@^16.6.3, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -9006,10 +9464,64 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-kotlin-playground@0.1.0-beta.7:
+  version "0.1.0-beta.7"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-kotlin-playground/-/react-kotlin-playground-0.1.0-beta.7.tgz#fc3b363580f0e0ba6cef55b9f8cb2844ef072917"
+  integrity sha1-/Ds2NYDw4Lps71W5+MsoRO8HKRc=
+
+react-player@2.1.0:
+  version "2.1.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-player/-/react-player-2.1.0.tgz#7bf6f57a0e428318265e951667395cd15b6ac010"
+  integrity sha1-e/b1eg5CgxgmXpUWZzlc0VtqwBA=
+  dependencies:
+    deepmerge "^4.0.0"
+    load-script "^1.0.0"
+    memoize-one "^5.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.0.1"
+
+react-popper@^1.3.4:
+  version "1.3.11"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-popper/-/react-popper-1.3.11.tgz#a2cc3f0a67b75b66cfa62d2c409f9dd1fcc71ffd"
+  integrity sha1-osw/Cme3W2bPpi0sQJ+d0fzHH/0=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    "@hypnosphi/create-react-context" "^0.3.1"
+    deep-equal "^1.1.1"
+    popper.js "^1.14.4"
+    prop-types "^15.6.1"
+    typed-styles "^0.0.7"
+    warning "^4.0.2"
+
+react-popper@^2.2.3:
+  version "2.2.5"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-popper/-/react-popper-2.2.5.tgz#1214ef3cec86330a171671a4fbcbeeb65ee58e96"
+  integrity sha1-EhTvPOyGMwoXFnGk+8vutl7ljpY=
+  dependencies:
+    react-fast-compare "^3.0.1"
+    warning "^4.0.2"
+
+react-portal@4.2.0:
+  version "4.2.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-portal/-/react-portal-4.2.0.tgz#5400831cdb0ae64dccb8128121cf076089ab1afd"
+  integrity sha1-VACDHNsK5k3MuBKBIc8HYImrGv0=
+  dependencies:
+    prop-types "^15.5.8"
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-resize-detector@^3.1.0:
+  version "3.4.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-resize-detector/-/react-resize-detector-3.4.0.tgz#2ccd399958a0efe9b7c52c5db5a13d87e47cd585"
+  integrity sha1-LM05mVig7+m3xSxdtaE9h+R81YU=
+  dependencies:
+    lodash "^4.17.11"
+    lodash-es "^4.17.11"
+    prop-types "^15.6.2"
+    resize-observer-polyfill "^1.5.1"
 
 react-scripts@4.0.3:
   version "4.0.3"
@@ -9076,6 +9588,20 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-scroll-sync@0.7.1:
+  version "0.7.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-scroll-sync/-/react-scroll-sync-0.7.1.tgz#d4bdd113660f6d68b83878bf289bf3b1ea330571"
+  integrity sha1-1L3RE2YPbWi4OHi/KJvzseozBXE=
+
+react-waypoint@9.0.2:
+  version "9.0.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/react-waypoint/-/react-waypoint-9.0.2.tgz#d65fb0fe6ff5c1b832a1d01b1462a661fb921e45"
+  integrity sha1-1l+w/m/1wbgyodAbFGKmYfuSHkU=
+  dependencies:
+    consolidated-events "^1.1.0 || ^2.0.0"
+    prop-types "^15.0.0"
+    react-is "^16.6.3"
 
 react@^17.0.2:
   version "17.0.2"
@@ -9346,6 +9872,11 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
+
 resolve-cwd@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/resolve-cwd/-/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
@@ -9374,6 +9905,11 @@ resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
+
+resolve-pathname@^3.0.0:
+  version "3.0.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/resolve-pathname/-/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
+  integrity sha1-mdAiJNPPJjaJvsuzk7xWAxMCXc0=
 
 resolve-url-loader@^3.1.2:
   version "3.1.2"
@@ -9626,10 +10162,25 @@ schema-utils@^3.0.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
+screenfull@5.0.2:
+  version "5.0.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/screenfull/-/screenfull-5.0.2.tgz#b9acdcf1ec676a948674df5cd0ff66b902b0bed7"
+  integrity sha1-uazc8exnapSGdN9c0P9muQKwvtc=
+
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
+
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
+
+selector-parse@^0.3.2:
+  version "0.3.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/selector-parse/-/selector-parse-0.3.2.tgz#efb8cca7540ffcf85ca6af90553212ac9d7bacfb"
+  integrity sha1-77jMp1QP/Phcpq+QVTISrJ17rPs=
 
 selfsigned@^1.10.8:
   version "1.10.8"
@@ -9793,6 +10344,13 @@ shellwords@^0.1.1:
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
+shortid@2.2.15:
+  version "2.2.15"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/shortid/-/shortid-2.2.15.tgz#2b902eaa93a69b11120373cd42a1f1fe4437c122"
+  integrity sha1-K5AuqpOmmxESA3PNQqHx/kQ3wSI=
+  dependencies:
+    nanoid "^2.1.0"
+
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
@@ -9895,6 +10453,11 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
+
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
 
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
@@ -10109,6 +10672,11 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+
+string-convert@^0.2.0:
+  version "0.2.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/string-convert/-/string-convert-0.2.1.tgz#6982cc3049fbb4cd85f8b24568b9d9bf39eeff97"
+  integrity sha1-aYLMMEn7tM2F+LJFaLnZvznu/5c=
 
 string-length@^4.0.1:
   version "4.0.1"
@@ -10440,10 +11008,22 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
+the-platform@^0.10.1:
+  version "0.10.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/the-platform/-/the-platform-0.10.1.tgz#a704cfdd5ee1c5b7123c7ea6885bebbcf8b08e76"
+  integrity sha1-pwTP3V7hxbcSPH6miFvrvPiwjnY=
+  dependencies:
+    json2mq "^0.2.0"
+
 throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
   integrity sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==
+
+throttle-debounce@2.2.1:
+  version "2.2.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/throttle-debounce/-/throttle-debounce-2.2.1.tgz#fbd933ae6793448816f7d5b3cae259d464c98137"
+  integrity sha1-+9kzrmeTRIgW99WzyuJZ1GTJgTc=
 
 through2@^2.0.0:
   version "2.0.5"
@@ -10469,6 +11049,21 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha1-HRpW7fxRxD6GPLtTgqcjMONVVCM=
+
+tiny-invariant@^1.0.2:
+  version "1.1.0"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
+  integrity sha1-Y0xfjv3CdxS384bDXmdgmR0jCHU=
+
+tiny-warning@^1.0.0:
+  version "1.0.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
+  integrity sha1-lKMNtFPfTGQ9D9VmBg1gqHXYR1Q=
 
 tmpl@1.0.x:
   version "1.0.4"
@@ -10656,6 +11251,11 @@ type@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/type/-/type-2.3.0.tgz#ada7c045f07ead08abf9e2edd29be1a0c0661132"
   integrity sha512-rgPIqOdfK/4J9FhiVrZ3cveAjRRo5rsQBAIhnylX874y1DX/kEKSVdLsnuHB6l1KTjHyU01VjiMBHgU2adejyg==
+
+typed-styles@^0.0.7:
+  version "0.0.7"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/typed-styles/-/typed-styles-0.0.7.tgz#93392a008794c4595119ff62dde6809dbc40a3d9"
+  integrity sha1-kzkqAIeUxFlRGf9i3eaAnbxAo9k=
 
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
@@ -10892,6 +11492,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+value-equal@^1.0.1:
+  version "1.0.1"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/value-equal/-/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
+  integrity sha1-Hgt5THNMXAyt4XnEN9NW2TGjTWw=
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -10936,6 +11541,13 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+warning@^4.0.2, warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://repo.labs.intellij.net/artifactory/api/npm/npm-all/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
